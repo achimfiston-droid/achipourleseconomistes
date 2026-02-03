@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Accueil - Économie &amp; Gestion</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#14b814",
+                "background-light": "#f6f8f6",
+                "background-dark": "#112111",
+              },
+              fontFamily: {
+                "display": ["Newsreader", "serif"]
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Newsreader', serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0e1b0e] dark:text-[#f8fcf8] antialiased">
+<div class="relative flex min-h-screen flex-col overflow-x-hidden">
+<!-- Header / Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-solid border-[#e7f3e7] dark:border-[#223a22] bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-4 lg:px-10">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-[#0e1b0e] dark:text-[#f8fcf8]">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-4xl">account_balance</span>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-tight">Économie &amp; Gestion</h2>
+</div>
+<nav class="hidden items-center gap-8 lg:flex">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Accueil</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Économie</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Gestion</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Ressources</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-primary text-xl">search</span>
+<input class="h-10 w-64 rounded-lg border-none bg-[#e7f3e7] dark:bg-[#1a2e1a] pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary/50" placeholder="Rechercher un cours..." type="text"/>
+</div>
+<button class="flex h-10 items-center justify-center rounded-lg bg-primary px-6 text-sm font-bold text-white transition-opacity hover:opacity-90">
+                        S'inscrire
+                    </button>
+</div>
+</div>
+</header>
+<main class="mx-auto w-full max-w-[1280px] grow">
+<!-- Hero Section -->
+<section class="px-6 py-12 lg:px-10 lg:py-20">
+<div class="@container">
+<div class="flex flex-col gap-10 @[864px]:flex-row @[864px]:items-center">
+<div class="w-full @[864px]:w-1/2">
+<div class="aspect-video w-full rounded-xl bg-center bg-no-repeat bg-cover shadow-2xl" data-alt="Modern university library with clean architectural lines" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDVUVUs-tT6mhQKPxyAn4LZswVBTHERP9hKavgQqsHaNLcnVrjZd7BrFfdRAuhvSTSe09puFjNF3m4UJ25C_DmcC0aKxgj-xl5DBXtgdbRDVgb0Oxas6iVNEZ_UQf1PfmL6o7TaheN-uDzMl99QRNGcvv2P3u7T0QyP0RDrB9iI-YG-goIaSzzfJchq0AnqOKk31JjI1Wd1EDVedIhKUqE2cQdCAV_NJ9rBRsNcIZ921CoUDkJdORdne2cK81A3qiLRx5Dl2GLzXC4V");'>
+</div>
+</div>
+<div class="flex w-full flex-col gap-8 @[864px]:w-1/2">
+<div class="flex flex-col gap-4">
+<h1 class="text-4xl font-black leading-tight tracking-tight text-[#0e1b0e] dark:text-[#f8fcf8] @[480px]:text-5xl @[864px]:text-6xl">
+                                    Maîtrisez les fondamentaux de l'économie et de la gestion
+                                </h1>
+<p class="max-w-xl text-lg font-normal leading-relaxed text-[#4e6b4e] dark:text-[#a5c0a5]">
+                                    Une approche pédagogique structurée pour comprendre les mécanismes économiques contemporains et les principes de management moderne, conçue pour les étudiants et professionnels.
+                                </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="flex h-14 items-center justify-center rounded-lg bg-primary px-8 text-lg font-bold text-white shadow-lg transition-transform hover:scale-[1.02]">
+                                    Commencer l'apprentissage
+                                </button>
+<button class="flex h-14 items-center justify-center rounded-lg border-2 border-primary/20 bg-transparent px-8 text-lg font-bold text-primary transition-colors hover:bg-primary/5">
+                                    Explorer le catalogue
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Features Section -->
+<section class="bg-primary/5 px-6 py-16 lg:px-10 lg:py-24 rounded-3xl mx-6 lg:mx-10 my-10 border border-primary/10">
+<div class="flex flex-col gap-12">
+<div class="flex flex-col gap-4 text-center items-center">
+<h2 class="text-3xl font-bold tracking-tight @[480px]:text-4xl">Pourquoi nous choisir ?</h2>
+<p class="max-w-2xl text-base font-normal text-[#4e6b4e] dark:text-[#a5c0a5]">
+                            Nous combinons excellence académique et outils numériques modernes pour une expérience d'apprentissage optimale.
+                        </p>
+</div>
+<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+<div class="flex flex-col gap-4 rounded-xl border border-[#d0e7d0] dark:border-[#223a22] bg-background-light dark:bg-background-dark p-8 shadow-sm transition-shadow hover:shadow-md">
+<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl">verified</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-xl font-bold">Contenu Certifié</h3>
+<p class="text-sm leading-relaxed text-[#4e6b4e] dark:text-[#a5c0a5]">
+                                    Tous nos cours sont rigoureusement validés par un comité scientifique composé de professeurs d'université.
+                                </p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-[#d0e7d0] dark:border-[#223a22] bg-background-light dark:bg-background-dark p-8 shadow-sm transition-shadow hover:shadow-md">
+<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-xl font-bold">Ressources Gratuites</h3>
+<p class="text-sm leading-relaxed text-[#4e6b4e] dark:text-[#a5c0a5]">
+                                    Accédez librement à plus de 500 fiches de révision, exercices corrigés et études de cas réels.
+                                </p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-[#d0e7d0] dark:border-[#223a22] bg-background-light dark:bg-background-dark p-8 shadow-sm transition-shadow hover:shadow-md">
+<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl">school</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-xl font-bold">Experts Académiques</h3>
+<p class="text-sm leading-relaxed text-[#4e6b4e] dark:text-[#a5c0a5]">
+                                    Bénéficiez de l'accompagnement de professionnels du secteur pour préparer votre insertion professionnelle.
+                                </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SectionHeader: Cours à la Une -->
+<section class="px-6 py-10 lg:px-10">
+<div class="mb-8 flex items-end justify-between border-b border-[#e7f3e7] pb-6 dark:border-[#223a22]">
+<h2 class="text-3xl font-bold tracking-tight">Cours à la Une</h2>
+<a class="text-sm font-bold text-primary flex items-center gap-1 hover:underline" href="#">
+                        Voir tout le catalogue <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Featured Cards (ImageGrid variant) -->
+<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+<div class="group flex flex-col gap-6 overflow-hidden rounded-2xl bg-white dark:bg-[#1a2e1a] border border-[#e7f3e7] dark:border-[#223a22] transition-all hover:shadow-xl">
+<div class="aspect-[16/9] w-full overflow-hidden">
+<div class="h-full w-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105" data-alt="Economic charts and financial analysis tools" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDEXgTNd-_5di7n-H_ry1191RDWzoMNB3LBr-LPaQP6Pi_kIRJ6re2FbBDZCv2x4Tyl5nh3Nd7EejoUMdAPiDhKaxwfwLNVzbkOE9MR4UNOOJFbmGkpC6oTVrgYFB81dhN1NOqyZJvVj1QU3EvcE8v1d0B0ZA8fIzk58J5u1IWVOM81K2hy1gBrDB9Jw8zZbe4nBbZpmLTVtEoK3vsz_QD3LCRCOqVIQ5-bF2PCV-z2CtN_vgKHP6h4rq9hBSGMznCijAEXVJJ233b3");'>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-8 pt-0">
+<div class="flex items-center gap-2">
+<span class="rounded-full bg-primary/10 px-3 py-1 text-xs font-bold text-primary">Microéconomie</span>
+<span class="text-xs text-[#4e6b4e] dark:text-[#a5c0a5]">Niveau Débutant</span>
+</div>
+<h3 class="text-2xl font-bold">Introduction à la Microéconomie</h3>
+<p class="text-[#4e6b4e] dark:text-[#a5c0a5]">Maîtrisez les concepts de base : offre et demande, équilibre du marché et comportement du consommateur.</p>
+<div class="mt-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-1 text-sm text-primary">
+<span class="material-symbols-outlined text-lg">schedule</span>
+<span>10h de contenu</span>
+</div>
+<div class="flex items-center gap-1 text-sm text-primary">
+<span class="material-symbols-outlined text-lg">group</span>
+<span>1.2k étudiants</span>
+</div>
+</div>
+<button class="rounded-lg bg-primary/10 p-2 text-primary hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+</div>
+</div>
+<div class="group flex flex-col gap-6 overflow-hidden rounded-2xl bg-white dark:bg-[#1a2e1a] border border-[#e7f3e7] dark:border-[#223a22] transition-all hover:shadow-xl">
+<div class="aspect-[16/9] w-full overflow-hidden">
+<div class="h-full w-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105" data-alt="People collaborating in a modern office boardroom" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDuM_WWvGttkCdylE577O36ehubrJDxG1mk6kZKaqwhgPdBZLQZo80NUjlrsemeKIWjkLQSaPfHCvaGcUvvmJP6do-P1nxow0VpxrDQo_XvsrU1z2IlFy37M9oNxSgq1o4d4JGILRN7TecwtDrfX7cFXk_2TjqLZZ1Jokbh6I1t_shiwFbp3gFT6E1yPj0gYBKQcRkbPvhS9uf5xqTphCgjmjEilbB5pF73v1jCA3QIeJNchliPTl-wQx2vKUxB021EVI1NqsxdAkpE");'>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-8 pt-0">
+<div class="flex items-center gap-2">
+<span class="rounded-full bg-primary/10 px-3 py-1 text-xs font-bold text-primary">Management</span>
+<span class="text-xs text-[#4e6b4e] dark:text-[#a5c0a5]">Niveau Intermédiaire</span>
+</div>
+<h3 class="text-2xl font-bold">Principes de Management</h3>
+<p class="text-[#4e6b4e] dark:text-[#a5c0a5]">Apprenez les fondamentaux de l'organisation, du leadership et de la prise de décision stratégique en entreprise.</p>
+<div class="mt-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-1 text-sm text-primary">
+<span class="material-symbols-outlined text-lg">schedule</span>
+<span>12h de contenu</span>
+</div>
+<div class="flex items-center gap-1 text-sm text-primary">
+<span class="material-symbols-outlined text-lg">group</span>
+<span>850 étudiants</span>
+</div>
+</div>
+<button class="rounded-lg bg-primary/10 p-2 text-primary hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="mt-20 border-t border-[#e7f3e7] dark:border-[#223a22] bg-white dark:bg-background-dark py-12">
+<div class="mx-auto max-w-[1280px] px-6 lg:px-10">
+<div class="grid grid-cols-1 gap-12 lg:grid-cols-4">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2 text-[#0e1b0e] dark:text-[#f8fcf8]">
+<span class="material-symbols-outlined text-3xl text-primary">account_balance</span>
+<span class="text-lg font-bold">Économie &amp; Gestion</span>
+</div>
+<p class="text-sm text-[#4e6b4e] dark:text-[#a5c0a5]">
+                            La plateforme de référence pour l'apprentissage académique en économie et gestion d'entreprise.
+                        </p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold">Navigation</h4>
+<nav class="flex flex-col gap-2 text-sm text-[#4e6b4e] dark:text-[#a5c0a5]">
+<a class="hover:text-primary" href="#">Cours d'Économie</a>
+<a class="hover:text-primary" href="#">Modules de Gestion</a>
+<a class="hover:text-primary" href="#">Bibliothèque</a>
+<a class="hover:text-primary" href="#">Blog Académique</a>
+</nav>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold">Légal</h4>
+<nav class="flex flex-col gap-2 text-sm text-[#4e6b4e] dark:text-[#a5c0a5]">
+<a class="hover:text-primary" href="#">Mentions Légales</a>
+<a class="hover:text-primary" href="#">Politique de Confidentialité</a>
+<a class="hover:text-primary" href="#">CGU</a>
+</nav>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold">Newsletter</h4>
+<p class="text-xs text-[#4e6b4e] dark:text-[#a5c0a5]">Recevez nos derniers cours et ressources par email.</p>
+<div class="flex gap-2">
+<input class="h-10 w-full rounded-lg border-none bg-[#e7f3e7] dark:bg-[#1a2e1a] px-4 text-xs focus:ring-primary" placeholder="Votre email" type="email"/>
+<button class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="mt-12 border-t border-[#e7f3e7] pt-8 text-center text-xs text-[#4e6b4e] dark:border-[#223a22] dark:text-[#a5c0a5]">
+                    © 2024 Économie &amp; Gestion. Tous droits réservés. Une plateforme éducative professionnelle.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>
